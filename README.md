@@ -25,10 +25,10 @@ My first Flutter project.
 
 ## Available menus
 
-- [Accounts](#accounts-transfer): lists all customer accounts and balance.
-- [Transfer](#accounts-transfer): on-us, virtual account, interbank transfer.
-- [Payments](#payments-commerce): bill payments, eg. credit cards, internet, utilities, etc.
-- [Commerce](#payments-commerce): this menu is used to showcase loading and caching network image with loading spinner and error fallback icon.
+- [Accounts](#accounts--transfer): lists all customer accounts and balance.
+- [Transfer](#accounts--transfer): on-us, virtual account, interbank transfer.
+- [Payments](#payments--commerce): bill payments, eg. credit cards, internet, utilities, etc.
+- [Commerce](#payments--commerce): this menu is used to showcase loading and caching network image with loading spinner and error fallback icon.
 - [Investments](#investments): this menu is used to showcase chart.
 - [NFC](#nfc-experimental): this menu is used to showcase NFC Scanning capability.
 - [Support](#support): telephone call, email, live chat (TODO), and a webview to show a map of company nearest branches.
@@ -48,6 +48,7 @@ Quick access (bottom nav bar):
         <td><img src='screenshots/menu2_transferReady.jpg'></img></td>
     </tr>
 </table>
+
 [Back to top](#available-menus)
 
 ### Payments & Commerce
@@ -59,6 +60,7 @@ Quick access (bottom nav bar):
         <td><img src='screenshots/menu4_loadingNetworkImages.mp4'></img></td>
     </tr>
 </table>
+
 [Back to top](#available-menus)
 
 ### Investments
@@ -71,6 +73,7 @@ This menu showcases chart display and color switches.
         <td><img src='screenshots/menu5_chartColorSwitch2.jpg'></img></td>
     </tr>
 </table>
+
 [Back to top](#available-menus)
 
 ### NFC (experimental)
@@ -82,6 +85,7 @@ This menu showcases chart display and color switches.
         <td><img src='screenshots/menuNFCunavailable.jpg'></img></td>
     </tr>
 </table>
+
 [Back to top](#available-menus)
 
 ### Support
@@ -93,11 +97,13 @@ This menu showcases chart display and color switches.
         <td><img src='screenshots/menuSupportMailto.jpg'></img></td>
     </tr>
 </table>
+
 [Back to top](#available-menus)
 
 ### Home (main menu)
 
 <img src='screenshots/a_homepage.jpg'></img>
+
 [Back to top](#available-menus)
 
 ### QRIS (experimental)
@@ -109,9 +115,12 @@ This menu showcases chart display and color switches.
         <td><img src='screenshots/menuQRIS_FlashOn.jpg'></img></td>
     </tr>
 </table>
+
+
 [Back to top](#available-menus)
 
 ### History
 
 This menu will be used as a shortcut (quick access) to account statements.
+
 [Back to top](#available-menus)
