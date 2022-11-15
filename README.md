@@ -1,71 +1,117 @@
-## flutter_login_signup  [![GitHub stars](https://img.shields.io/github/stars/Thealphamerc/flutter_login_signup?style=social)](https://github.com/login?return_to=%2FTheAlphamerc%flutter_login_signup)
+# my_app
 
-Simple basic authentication app designed in flutter. App design is based on [Login/Register Design](https://mir-s3-cdn-cf.behance.net/project_modules/2800_opt_1/a0690a86011377.5d9df2afceda1.png) designed by [Frank Arinze](https://www.behance.net/frankarinze)
+My first Flutter project.
 
-## Download App ![GitHub All Releases](https://img.shields.io/github/downloads/Thealphamerc/flutter_login_signup/total?color=green)
-<a href="https://github.com/TheAlphamerc/flutter_login_signup/releases/download/v1.0.0/app-release.apk"><img src="https://playerzon.com/asset/download.png" width="200"></img></a>
+## What does it look like
 
+<table>
+    <tr>
+        <td><img src='screenshots/colorSchemes/miimoAmber1.png'></img></td>
+        <td><img src='screenshots/colorSchemes/miimoAmber2.png'></img></td>
+        <td><img src='screenshots/colorSchemes/miimoAmber3.png'></img></td>
+        <td><img src='screenshots/colorSchemes/miimoBlue1.png'></img></td>
+        <td><img src='screenshots/colorSchemes/miimoBlue2.png'></img></td>
+        <td><img src='screenshots/colorSchemes/miimoBlue3.png'></img></td>
+    </tr>
+    <tr>
+        <td><img src='screenshots/colorSchemes/miimoLime1.png'></img></td>
+        <td><img src='screenshots/colorSchemes/miimoLime2.png'></img></td>
+        <td><img src='screenshots/colorSchemes/miimoLime3.png'></img></td>
+        <td><img src='screenshots/colorSchemes/miimoPink1.png'></img></td>
+        <td><img src='screenshots/colorSchemes/miimoPink2.png'></img></td>
+        <td><img src='screenshots/colorSchemes/miimoPink3.png'></img></td>
+    </tr>
+</table>
 
+## Available menus
 
-<img src="https://mir-s3-cdn-cf.behance.net/project_modules/2800_opt_1/a0690a86011377.5d9df2afceda1.png"  /> 
+- [Accounts](#accounts-transfer): lists all customer accounts and balance.
+- [Transfer](#accounts-transfer): on-us, virtual account, interbank transfer.
+- [Payments](#payments-commerce): bill payments, eg. credit cards, internet, utilities, etc.
+- [Commerce](#payments-commerce): this menu is used to showcase loading and caching network image with loading spinner and error fallback icon.
+- [Investments](#investments): this menu is used to showcase chart.
+- [NFC](#nfc-experimental): this menu is used to showcase NFC Scanning capability.
+- [Support](#support): telephone call, email, live chat (TODO), and a webview to show a map of company nearest branches.
 
+Quick access (bottom nav bar):
+- [Home](#home-main-menu): quick access to go back to main menu.
+- [QRIS](#qris-experimental): process QRIS (TODO).
+- [History](#history): a shortcut to account statements.
 
+### Accounts & Transfer
 
-## Screenshots
+<table>
+    <tr>
+        <td><img src='screenshots/menu1_accounts.jpg'></img></td>
+        <td><img src='screenshots/menu1_accountsCopyToClipboard.jpg'></img></td>
+        <td><img src='screenshots/menu2_transfer.jpg'></img></td>
+        <td><img src='screenshots/menu2_transferReady.jpg'></img></td>
+    </tr>
+</table>
+[Back to top](#available-menus)
 
-Login               |  Welcome  |  Register
-:-------------------------:|:-------------------------:|:-------------------------:
-![](https://github.com/TheAlphamerc/flutter_login_signup/blob/master/screenshots/screenshot_2.jpg?raw=true)|![](https://github.com/TheAlphamerc/flutter_login_signup/blob/master/screenshots/screenshot_1.jpg?raw=true)|![](https://github.com/TheAlphamerc/flutter_login_signup/blob/master/screenshots/screenshot_3.jpg?raw=true) 
-# Pull Requests
+### Payments & Commerce
 
-I welcome and encourage all pull requests. It usually will take me within 24-48 hours to respond to any issue or request.
+<table>
+    <tr>
+        <td><img src='screenshots/menu3_payments.jpg'></img></td>
+        <td><img src='screenshots/menu4_loadNetworkImages.jpg'></img></td>
+        <td><img src='screenshots/menu4_loadingNetworkImages.mp4'></img></td>
+    </tr>
+</table>
+[Back to top](#available-menus)
 
-## Flutter projects
- Project Name        |Stars        
-:-------------------------|-------------------------
-[Twitter clone](https://github.com/TheAlphamerc/flutter_twitter_clone)| [![GitHub stars](https://img.shields.io/github/stars/Thealphamerc/flutter_twitter_clone?style=social)](https://github.com/login?return_to=%2FTheAlphamerc%flutter_twitter_clone)
-|[Ecommerce App](https://github.com/TheAlphamerc/flutter_ecommerce_app) |[![GitHub stars](https://img.shields.io/github/stars/Thealphamerc/flutter_ecommerce_app?style=social)](https://github.com/login?return_to=%2FTheAlphamerc%flutter_ecommerce_app)
-|[Smart course](https://github.com/TheAlphamerc/flutter_smart_course) |[![GitHub stars](https://img.shields.io/github/stars/Thealphamerc/flutter_smart_course?style=social)](https://github.com/login?return_to=%2FTheAlphamerc%flutter_smart_course)
-|[Pokedex](https://github.com/TheAlphamerc/flutter_pokedex)|[![GitHub stars](https://img.shields.io/github/stars/Thealphamerc/flutter_pokedex?style=social)](https://github.com/login?return_to=%2FTheAlphamerc%flutter_pokedex)
-|[Healthcare App](https://github.com/TheAlphamerc/flutter_healthcare_app)|![GitHub stars](https://img.shields.io/github/stars/thealphamerc/flutter_healthcare_app?color=green&style=social)
-|[Wallet App](https://github.com/TheAlphamerc/flutter_wallet_app)|[![GitHub stars](https://img.shields.io/github/stars/Thealphamerc/flutter_wallet_app?style=social)](https://github.com/login?return_to=%2FTheAlphamerc%flutter_wallet_app)
-|[News App](https://github.com/TheAlphamerc/flutter_news_app)|[![GitHub stars](https://img.shields.io/github/stars/Thealphamerc/flutter_news_app?style=social)](https://github.com/login?return_to=%2FTheAlphamerc%flutter_news_app)
-|[Watch App](https://github.com/TheAlphamerc/flutter_SoftUI_watchApp)|[![GitHub stars](https://img.shields.io/github/stars/Thealphamerc/flutter_SoftUI_watchApp?style=social)](https://github.com/login?return_to=%2FTheAlphamerc%flutter_SoftUI_watchApp)
-|[Smart Home App](https://github.com/TheAlphamerc/flutter_smart_home_app)|[![GitHub stars](https://img.shields.io/github/stars/Thealphamerc/flutter_smart_home_app?style=social)](https://github.com/login?return_to=%2FTheAlphamerc%flutter_smart_home_app)
-|[Yatch Booking App](https://github.com/TheAlphamerc/flutter_yatch_booking)|[![GitHub stars](https://img.shields.io/github/stars/Thealphamerc/flutter_yatch_booking?style=social)](https://github.com/login?return_to=%2FTheAlphamerc%flutter_yatch_booking)
+### Investments
 
-## Flutter plugins
-Plugin Name        | Stars        
-:-------------------------|-------------------------
-|[Empty widget](https://github.com/TheAlphamerc/empty_widget) |[![GitHub stars](https://img.shields.io/github/stars/Thealphamerc/empty_widget?style=social)](https://github.com/login?return_to=%2FTheAlphamerc%empty_widget)
-|[Add Thumbnail](https://github.com/TheAlphamerc/flutter_plugin_add_thumbnail) |[![GitHub stars](https://img.shields.io/github/stars/Thealphamerc/flutter_plugin_add_thumbnail?style=social)](https://github.com/login?return_to=%2FTheAlphamerc%flutter_plugin_add_thumbnail)
-|[Filter List](https://github.com/TheAlphamerc/flutter_plugin_filter_list)| [![GitHub stars](https://img.shields.io/github/stars/Thealphamerc/flutter_plugin_filter_list?style=social)](https://github.com/login?return_to=%2FTheAlphamerc%flutter_plugin_filter_list)
+This menu showcases chart display and color switches.
+<table>
+    <tr>
+        <td><img src='screenshots/menu5_chart.jpg'></img></td>
+        <td><img src='screenshots/menu5_chartColorSwitch1.jpg'></img></td>
+        <td><img src='screenshots/menu5_chartColorSwitch2.jpg'></img></td>
+    </tr>
+</table>
+[Back to top](#available-menus)
 
-### Created & Maintained By
+### NFC (experimental)
 
-[Sonu Sharma](https://github.com/TheAlphamerc) ([Twitter](https://www.twitter.com/TheAlphamerc)) ([Youtube](https://www.youtube.com/user/sonusharma045sonu/))
-([Insta](https://www.instagram.com/_sonu_sharma__))
+<table>
+    <tr>
+        <td><img src='screenshots/menuNFC.jpg'></img></td>
+        <td><img src='screenshots/menuNFCscanning.jpg'></img></td>
+        <td><img src='screenshots/menuNFCunavailable.jpg'></img></td>
+    </tr>
+</table>
+[Back to top](#available-menus)
 
-> If you found this project helpful or you learned something from the source code and want to thank me, consider buying me a cup of :coffee:
->
-> * [PayPal](https://www.paypal.me/TheAlphamerc/)
+### Support
 
+<table>
+    <tr>
+        <td><img src='screenshots/menuSupport.jpg'></img></td>
+        <td><img src='screenshots/menuSupportTel.jpg'></img></td>
+        <td><img src='screenshots/menuSupportMailto.jpg'></img></td>
+    </tr>
+</table>
+[Back to top](#available-menus)
 
-> You can also nominate me for Github Star developer program https://stars.github.com/nominate
+### Home (main menu)
 
-## Getting Started
+<img src='screenshots/a_homepage.jpg'></img>
+[Back to top](#available-menus)
 
-This project is a starting point for a Flutter application.
+### QRIS (experimental)
 
-A few resources to get you started if this is your first Flutter project:
+<table>
+    <tr>
+        <td><img src='screenshots/menuQRIS_AskPermission.jpg'></img></td>
+        <td><img src='screenshots/menuQRIS_FlashOff.jpg'></img></td>
+        <td><img src='screenshots/menuQRIS_FlashOn.jpg'></img></td>
+    </tr>
+</table>
+[Back to top](#available-menus)
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+### History
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-
-
-
-
+This menu will be used as a shortcut (quick access) to account statements.
+[Back to top](#available-menus)
