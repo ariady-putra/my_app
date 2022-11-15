@@ -1,6 +1,6 @@
 # my_app
 
-My first Flutter project.
+My first Flutter project. https://youtu.be/W_Dj-KBIge0
 
 ## What does it look like
 
@@ -57,7 +57,11 @@ Quick access (bottom nav bar):
     <tr>
         <td><img src='screenshots/menu3_payments.jpg'></img></td>
         <td><img src='screenshots/menu4_loadNetworkImages.jpg'></img></td>
-        <td><img src='screenshots/menu4_loadingNetworkImages.mp4'></img></td>
+<td>
+
+https://user-images.githubusercontent.com/2069784/202013739-c8f4c1fc-f567-424d-a93b-c956f8a160f9.mp4
+
+</td>
     </tr>
 </table>
 
